@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "notifyType": "error",
+            "notificationText": "Your username and/or password do not match"
+        },
+        {
+            "notifyType": "notification",
+            "notificationText": "Please enter your email address"
+        },
+        {
+            "notifyType": "warning",
+            "notificationText": "The network connection is lost"
+        },
+        {
+            "notifyType": "success",
+            "notificationText": "Thank you for filling out your information"
+        }
+
+    ]
+}
