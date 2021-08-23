@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const fnc = () => console.log('Вы нажали на кнопку')
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App logThis={fnc}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
