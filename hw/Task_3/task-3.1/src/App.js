@@ -1,10 +1,19 @@
-import './App.css';
+import React from 'react';
+import FontType from './FontType';
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+export default function App(props) {
+    return (
+      <div>
+         <p>
+              <FontType type={'bold'}>Текст жирным шрифтом</FontType>
+          </p>
+          <p>
+              <FontType type={'italic'}>Текст курсивом</FontType>
+          </p>
+          <p>
+              <FontType type={'underlined'}>Текст подчеркнутый</FontType>
+          </p>
+      </div>
+    );
+  }
 
-export default App;
