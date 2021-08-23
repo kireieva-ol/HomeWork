@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "link": "#main",
+            "text": "Главная"
+        },
+        {
+            "link": "#articles",
+            "text": "Статьи"
+        },
+        {
+            "link": "#reviews",
+            "text": "Отзывы"
+        },
+        {
+            "link": "#aboutUs",
+            "text": "О нас"
+        }
+
+    ]
+}
