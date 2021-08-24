@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+    color:green;
+
+}
+
+.randomNumber {
+    width: 250px;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+}
